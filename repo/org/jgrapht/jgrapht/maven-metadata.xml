@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jgrapht</groupId>
+  <artifactId>jgrapht</artifactId>
+  <versioning>
+    <latest>jdk1.6</latest>
+    <release>jdk1.6</release>
+    <versions>
+      <version>jdk1.6</version>
+    </versions>
+    <lastUpdated>20090921175525</lastUpdated>
+  </versioning>
+</metadata>
