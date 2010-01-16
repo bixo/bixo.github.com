@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.archive</groupId>
+  <artifactId>heritrix</artifactId>
+  <name>Heritrix</name>
+  <licenses>
+    <license>
+      <name>GNU Lesser General Public License</name>
+      <url>http://crawler.archive.org/license.html</url>
+    </license>
+  </licenses>
+  <url>http://crawler.archive.org/</url>
+  <description>Heritrix is the Internet Archive's open-source, extensible, web-scale, archival-quality web crawler project.</description>
+  <version>1.14.3</version>
+</project>
