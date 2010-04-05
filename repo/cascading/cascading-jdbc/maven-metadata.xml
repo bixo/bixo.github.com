@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>cascading</groupId>
+  <artifactId>cascading-jdbc</artifactId>
+  <version>0.0.4</version>
+  <versioning>
+    <versions>
+      <version>0.0.4</version>
+    </versions>
+    <lastUpdated>20100405065624</lastUpdated>
+  </versioning>
+</metadata>
