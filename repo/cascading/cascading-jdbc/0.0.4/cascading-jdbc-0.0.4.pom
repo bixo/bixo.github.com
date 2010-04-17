@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD:repo/cascading/cascading-jdbc/0.0.4/cascading-jdbc-0.0.4.pom
 <project xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
@@ -68,4 +69,23 @@
 			<scope>test</scope>
         </dependency>
   </dependencies>
+=======
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cascading</groupId>
+  <artifactId>cascading-jdbc</artifactId>
+  <version>0.0.4</version>
+  <description>POM was manually created by VMa</description>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>1.5.8</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+
+>>>>>>> 17e46c7cbf95dec91ebb8acbabe560685e2210de:repo/cascading/cascading-jdbc/0.0.4/cascading-jdbc-0.0.4.pom
 </project>
