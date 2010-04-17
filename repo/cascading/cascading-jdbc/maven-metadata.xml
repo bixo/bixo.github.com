@@ -7,10 +7,6 @@
     <versions>
       <version>0.0.4</version>
     </versions>
-<<<<<<< HEAD:repo/cascading/cascading-jdbc/maven-metadata.xml
-    <lastUpdated>20100417203008</lastUpdated>
-=======
-    <lastUpdated>20100405065624</lastUpdated>
->>>>>>> 17e46c7cbf95dec91ebb8acbabe560685e2210de:repo/cascading/cascading-jdbc/maven-metadata.xml
+    <lastUpdated>20100417204128</lastUpdated>
   </versioning>
 </metadata>
