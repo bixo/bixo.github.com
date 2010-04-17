@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cascading</groupId>
+  <artifactId>cascading-jdbc</artifactId>
+  <name>Cascading JDBC Tap</name>
+  <licenses>
+    <license>
+      <name>Public Domain</name>
+    </license>
+  </licenses>
+  <url>http://github.com/cwensel/cascading.jdbc</url>
+  <description>Cascading JDBC tap and schema that provides support for reading/writing data to/from an RDBMS via JDBC drivers when bound to a Cascading data processing flow.</description>
+  <packaging>jar</packaging>
+  <version>0.0.4</version>
+  
+  	<repositories>
+		<repository>
+			<id>Bixo</id>
+			<name>Bixo GitHub repository</name>
+			<url>http://bixo.github.com/repo/</url>
+		</repository>
+	</repositories>
+
+  <dependencies>
+		<dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-core</artifactId>
+            <version>0.19.2</version>
+			<scope>provided</scope>
+		</dependency>
+    
+		<dependency>
+            <groupId>cascading</groupId>
+            <artifactId>cascading-core</artifactId>
+            <version>1.0.16</version>
+			<scope>provided</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.5.11</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.7</version>
+            <scope>test</scope>
+        </dependency>
+
+		<dependency>
+            <groupId>cascading</groupId>
+            <artifactId>cascading-test</artifactId>
+            <version>1.0.16</version>
+			<scope>test</scope>
+        </dependency>
+        
+		<dependency>
+            <groupId>hsqldb</groupId>
+            <artifactId>hsqldb</artifactId>
+            <version>1.8.0.7</version>
+			<scope>test</scope>
+        </dependency>
+  </dependencies>
+</project>
