@@ -17,60 +17,12 @@
   <packaging>jar</packaging>
   <version>0.0.4</version>
   
-  	<repositories>
-		<repository>
-			<id>Bixo</id>
-			<name>Bixo GitHub repository</name>
-			<url>http://bixo.github.com/repo/</url>
-		</repository>
-	</repositories>
-
   <dependencies>
-		<dependency>
-            <groupId>org.apache.hadoop</groupId>
-            <artifactId>hadoop-core</artifactId>
-            <version>0.19.2</version>
-			<scope>provided</scope>
-		</dependency>
-    
-		<dependency>
-            <groupId>cascading</groupId>
-            <artifactId>cascading-core</artifactId>
-            <version>1.0.16</version>
-			<scope>provided</scope>
-        </dependency>
-        
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.5.8</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
-            <version>1.5.8</version>
-        </dependency>
-
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.7</version>
-            <scope>test</scope>
-        </dependency>
-
-		<dependency>
-            <groupId>cascading</groupId>
-            <artifactId>cascading-test</artifactId>
-            <version>1.0.16</version>
-			<scope>test</scope>
-        </dependency>
-        
-		<dependency>
-            <groupId>hsqldb</groupId>
-            <artifactId>hsqldb</artifactId>
-            <version>1.8.0.7</version>
-			<scope>test</scope>
-        </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>1.5.8</version>
+      <scope>runtime</scope>
+    </dependency>
   </dependencies>
 </project>
