@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cascading</groupId>
+  <artifactId>cascading-11-jdbc</artifactId>
+  <name>Cascading JDBC Tap</name>
+  <licenses>
+    <license>
+      <name>Public Domain</name>
+    </license>
+  </licenses>
+  <url>http://github.com/cwensel/cascading.jdbc</url>
+  <description>Cascading 1.1 JDBC tap and schema that provides support for reading/writing data to/from an RDBMS via JDBC drivers when bound to a Cascading data processing flow.</description>
+  <packaging>jar</packaging>
+  <version>0.0.4</version>
+  
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>1.5.8</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
