@@ -25,15 +25,10 @@
       <version>jdk1.6</version>
     </dependency>
     
-    <!-- Cascading 1.1.1 comes with janino 1.5.16, but that version isn't
-         in the Maven central repo, so we're using the latest version that
-         is there (2.5.10).
-    -->
-    
     <dependency>
-      <groupId>janino</groupId>
+      <groupId>org.codehaus.janino</groupId>
       <artifactId>janino</artifactId>
-      <version>2.5.10</version>
+      <version>2.5.16</version>
     </dependency>
   </dependencies>
 </project>
