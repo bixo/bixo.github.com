@@ -1,0 +1,21 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Apr 13 13:25:56 PDT 2012
+http\://bixo.github.com/repo/.error=
+http\://repo1.maven.org/maven2/.lastUpdated=1334348756826
+http\://maven.glassfish.org/content/groups/public/.lastUpdated=1321811570905
+http\://conjars.org/repo/.error=
+http\://clojars.org/repo/.error=
+http\://bixolabs.github.com/repo/.lastUpdated=1334348756170
+http\://conjars.org/repo/.lastUpdated=1334348756373
+https\://repository.apache.org/content/groups/maven-staging-group/.error=
+https\://repository.apache.org/content/groups/maven-staging-group/.lastUpdated=1332874208662
+http\://bixolabs.github.com/repo/.error=
+http\://bixo.github.com/repo/.lastUpdated=1334348755970
+http\://repo2.maven.org/maven2/.lastUpdated=1321811570487
+http\://scala-tools.org/repo-releases/.lastUpdated=1321811570540
+http\://clojars.org/repo/.lastUpdated=1334348756548
+https\://repository.apache.org/content/groups/public/.error=
+https\://repository.apache.org/content/groups/public/.lastUpdated=1332872508153
+http\://repo1.maven.org/maven2/.error=
+http\://repo2.maven.org/maven2/.error=
+http\://scala-tools.org/repo-releases/.error=
